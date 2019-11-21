@@ -19,7 +19,7 @@ public class WeatherActivity extends FragmentActivity {
 
         ForecastFragment forecastFragment = new ForecastFragment();
 
-        getSupportFragmentManager().beginTransaction().add(R.id.container, forecastFragment).commit();
+        getSupportFragmentManager().beginTransaction().add(R.id.LinearLayout, forecastFragment).commit();
     }
 
     @Override
