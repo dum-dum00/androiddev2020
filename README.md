@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: Pham Pach
+* Name: Pham Phan Bach
 * ID: USTH Bi8-022
 * Group ID: Group 5
 
