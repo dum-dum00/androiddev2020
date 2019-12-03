@@ -26,15 +26,12 @@ public class HomeFragmentPagerAdapter extends FragmentPagerAdapter{
     public Fragment getItem(int current_page) {
         switch (current_page) {
             case 0:
-                ;
                 WeatherAndForcastFragment fragment1 = new WeatherAndForcastFragment();
                 return fragment1;
             case 1:
-                ;
                 WeatherAndForcastFragment fragment2 = new WeatherAndForcastFragment();
                 return fragment2;
             case 2:
-                ;
                 WeatherAndForcastFragment fragment3 = new WeatherAndForcastFragment();
                 return fragment3;
 
