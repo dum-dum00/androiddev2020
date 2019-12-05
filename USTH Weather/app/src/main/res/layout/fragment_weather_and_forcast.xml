@@ -13,7 +13,7 @@
         android:layout_weight="2"
         tools:context=".WeatherFragment"
         android:padding="30dp"
-        android:background="@color/fragWeather">
+        android:background="@drawable/frame">
 
         <!-- TODO: Update blank fragment layout -->
         <TextView
