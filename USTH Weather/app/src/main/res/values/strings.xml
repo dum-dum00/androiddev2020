@@ -1,6 +1,24 @@
 <resources>
     <string name="app_name">USTH Weather</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Days-->
+    <string name="mon">Monday</string>
+    <string name="tue">Tuesday</string>
+    <string name="wed">Wednesday</string>
+    <string name="thur">Thursday</string>
+    <string name="fri">Friday</string>
+    <string name="sat">Saturday</string>
+    <string name="sun">Sunday</string>
+
+    <!--Weather Discription-->
+    <string name="cloudy">Meh</string>
+    <string name="heavyrain">Flood incoming </string>
+    <string name="rain">Free water noice</string>
+    <string name="snow">Yo why so cold wth</string>
+    <string name="storm">Welp more sleep</string>
+    <string name="sunny">Too damm hot  </string>
+    <string name="windy">Time to fly </string>
+
+
 </resources>

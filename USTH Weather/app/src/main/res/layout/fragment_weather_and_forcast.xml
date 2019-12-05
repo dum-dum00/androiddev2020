@@ -74,7 +74,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Monday"
+                        android:text="@string/mon"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
@@ -90,7 +90,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="too damm hot \n 30-31"
+                        android:text="@string/sunny"
                         android:textColor="@android:color/black"
                         android:textSize="15dp" />
 
@@ -108,7 +108,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Tuesday"
+                        android:text="@string/tue"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
@@ -124,7 +124,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="yo why so cold wth \n 5-10"
+                        android:text="@string/snow"
                         android:textSize="15dp"
                         android:textColor="@android:color/black"/>
 
@@ -142,7 +142,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Wednesday"
+                        android:text="@string/wed"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
@@ -159,7 +159,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="flood incoming \n 20-21"
+                        android:text="@string/heavyrain"
                         android:textSize="15dp"
                         android:textColor="@android:color/black"/>
 
@@ -177,7 +177,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Thursday"
+                        android:text="@string/thur"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
@@ -194,7 +194,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="Shazam \n 20-21"
+                        android:text="@string/storm"
                         android:textSize="15dp"
                         android:textColor="@android:color/black"/>
 
@@ -212,7 +212,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Friday"
+                        android:text="@string/fri"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
@@ -229,7 +229,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="time to fly \n 19-21"
+                        android:text="@string/windy"
                         android:textSize="15dp"
                         android:textColor="@android:color/black"/>
 
@@ -248,7 +248,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Saturday"
+                        android:text="@string/sat"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
@@ -265,7 +265,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="free water noice\n 19-21"
+                        android:text="@string/rain"
                         android:textSize="15dp"
                         android:textColor="@android:color/black"/>
 
@@ -284,7 +284,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Sunday"
+                        android:text="@string/sun"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
@@ -301,13 +301,11 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="meh\n 19-21"
+                        android:text="@string/cloudy"
                         android:textSize="15dp"
                         android:textColor="@android:color/black"/>
 
                 </LinearLayout>
-
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
@@ -319,14 +317,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Monday"
+                        android:text="@string/mon"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="match_parent"
-
                         android:adjustViewBounds="true"
                         android:scaleType="fitCenter"
                         android:src="@drawable/sunny"/>
@@ -336,9 +333,9 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="too damm hot \n 30-31"
-                        android:textSize="15dp"
-                        android:textColor="@android:color/black"/>
+                        android:text="@string/sunny"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp" />
 
                 </LinearLayout>
 
@@ -354,14 +351,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Tuesday"
+                        android:text="@string/tue"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="match_parent"
-
                         android:adjustViewBounds="true"
                         android:scaleType="fitCenter"
                         android:src="@drawable/snow"/>
@@ -371,7 +367,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="yo why so cold wth \n 5-10"
+                        android:text="@string/snow"
                         android:textSize="15dp"
                         android:textColor="@android:color/black"/>
 
@@ -389,7 +385,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Wednesday"
+                        android:text="@string/wed"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
@@ -406,7 +402,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="flood incoming \n 20-21"
+                        android:text="@string/heavyrain"
                         android:textSize="15dp"
                         android:textColor="@android:color/black"/>
 
@@ -424,7 +420,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Thursday"
+                        android:text="@string/thur"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
@@ -441,7 +437,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="Shazam \n 20-21"
+                        android:text="@string/storm"
                         android:textSize="15dp"
                         android:textColor="@android:color/black"/>
 
@@ -459,7 +455,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Friday"
+                        android:text="@string/fri"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
@@ -476,7 +472,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="time to fly \n 19-21"
+                        android:text="@string/windy"
                         android:textSize="15dp"
                         android:textColor="@android:color/black"/>
 
@@ -495,7 +491,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Saturday"
+                        android:text="@string/sat"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
@@ -512,7 +508,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="free water noice\n 19-21"
+                        android:text="@string/rain"
                         android:textSize="15dp"
                         android:textColor="@android:color/black"/>
 
@@ -531,7 +527,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Sunday"
+                        android:text="@string/sun"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"/>
 
@@ -548,7 +544,250 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:paddingLeft="25dp"
-                        android:text="meh\n 19-21"
+                        android:text="@string/cloudy"
+                        android:textSize="15dp"
+                        android:textColor="@android:color/black"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/mon"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/sunny"/>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="25dp"
+                        android:text="@string/sunny"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/tue"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/snow"/>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="25dp"
+                        android:text="@string/snow"
+                        android:textSize="15dp"
+                        android:textColor="@android:color/black"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/wed"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/heavy_rain"/>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="25dp"
+                        android:text="@string/heavyrain"
+                        android:textSize="15dp"
+                        android:textColor="@android:color/black"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/thur"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/storm"/>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="25dp"
+                        android:text="@string/storm"
+                        android:textSize="15dp"
+                        android:textColor="@android:color/black"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/fri"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/windy"/>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="25dp"
+                        android:text="@string/windy"
+                        android:textSize="15dp"
+                        android:textColor="@android:color/black"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/sat"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/rain"/>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="25dp"
+                        android:text="@string/rain"
+                        android:textSize="15dp"
+                        android:textColor="@android:color/black"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/sun"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/cloudy"/>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="25dp"
+                        android:text="@string/cloudy"
                         android:textSize="15dp"
                         android:textColor="@android:color/black"/>
 

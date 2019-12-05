@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USTH la météo</string>
+    <string name="cloudy">Nuageux</string>
+    <string name="fri">Vendredi</string>
+    <string name="heavyrain">Forte pluie</string>
+    <string name="mon">Lundi</string>
+    <string name="rain">Pluie</string>
+    <string name="sat">Samedi</string>
+    <string name="snow">Neige</string>
+    <string name="storm">Orage</string>
+    <string name="sun">Dimanche</string>
+    <string name="sunny">Ensoleillé</string>
+    <string name="thur">Jeudi</string>
+    <string name="tue">Mardi</string>
+    <string name="wed">Mercredi</string>
+    <string name="windy">Venteuse</string>
+</resources>
